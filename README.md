@@ -17,7 +17,7 @@ Authority v7 is a local‑first, open‑source control plane for AI agents. It p
 
 ## Why This Exists
 
-Agents don’t fail loudly. They retry silently, loop quietly, and burn money invisibly. Authority v7 makes that behavior visible immediately, giving you the control you need over autonomous workflows.
+Agents retry silently, loop quietly, and burn money invisibly. Authority v7 makes that behavior visible immediately, giving you the control you need over autonomous workflows.
 
 ## Quick Start
 
