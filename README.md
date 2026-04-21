@@ -2,12 +2,28 @@
 
 **See what your AI agents are actually doing.**
 
-Authority v7 is a local‑first, open‑source control plane for AI agents. It provides visibility into agent operations, spend distribution, retry loops, and suspicious behavior across OpenAI and Anthropic.
+Authority v7 is a local‑first, open‑source control plane for AI agents. It shows which agents are running, which tasks are consuming spend, where retry loops are happening, and which runs look suspicious across OpenAI and Anthropic.
+---
 
  **[Live Demo](https://authority.bhaviavelayudhan.com/v7)**
 
 ---
+## Screenshots
+[![Authority v7 Dashboard](./assets/spend_summary.png)](https://authority.bhaviavelayudhan.com/v7)
 
+[![Authority v7 Suspicious Runs](./assets/suspicious_runs.png)](https://authority.bhaviavelayudhan.com/v7)
+
+[![Authority v7 Live Feed](./assets/livefeed.png)](https://authority.bhaviavelayudhan.com/v7)
+
+---
+
+## Try it in 30 seconds
+
+curl https://your-api/health
+curl -X POST https://your-api/v1/dev/seed
+curl https://your-api/v1/events
+
+---
 ## What You Get
 
 * **Spend Analysis:** Track costs by agent and by model.
@@ -15,12 +31,6 @@ Authority v7 is a local‑first, open‑source control plane for AI agents. It p
 * **Anomaly Detection:** Identify suspicious runs and silent retry loops.
 * **Persistence:** Local execution history that persists across sessions.
 
-## Screenshots
-[![Authority v7 Dashboard](./assets/spend_summary.png)](https://authority.bhaviavelayudhan.com/v7)
-
-[![Authority v7 Suspicious Runs](./assets/suspicious_runs.png)](https://authority.bhaviavelayudhan.com/v7)
-
-[![Authority v7 Live Feed](./assets/livefeed.png)](https://authority.bhaviavelayudhan.com/v7)
 
 ## Why This Exists
 
