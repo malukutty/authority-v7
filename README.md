@@ -15,6 +15,13 @@ Authority v7 is a local‑first, open‑source control plane for AI agents. It p
 * **Anomaly Detection:** Identify suspicious runs and silent retry loops.
 * **Persistence:** Local execution history that persists across sessions.
 
+## Screenshots
+[![Authority v7 Dashboard](./assets/spend_summary.png)](https://authority.bhaviavelayudhan.com/v7)
+
+[![Authority v7 Suspicious Runs](./assets/suspicious_runs.png)](https://authority.bhaviavelayudhan.com/v7)
+
+[![Authority v7 Live Feed](./assets/livefeed.png)](https://authority.bhaviavelayudhan.com/v7)
+
 ## Why This Exists
 
 Agents retry silently, loop quietly, and burn money invisibly. Authority v7 makes that behavior visible immediately, giving you the control you need over autonomous workflows.
